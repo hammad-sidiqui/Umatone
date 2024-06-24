@@ -1,0 +1,16 @@
+ usar loties con opcion de detener y reproducir
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://assets3.lottiefiles.com/packages/lf20_bkhdojtm.json" background="transparent" speed="4" style="width: 80%;margin:auto" autoplay></lottie-player>
+<script>
+    let player = document.querySelector("lottie-player");
+let play = document.querySelector("#start");
+let stop = document.querySelector("#stop");
+
+play.onclick = function () {
+    player.play();
+};
+
+stop.onclick = function () {
+    player.stop();
+};
+</script>
